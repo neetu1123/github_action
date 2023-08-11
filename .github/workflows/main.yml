@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: action/checkout@v2
-      - name: Run a online script
-        run: echo hello, world!
+    - uses: action/checkout@v2
+    - name: Run a online script
+      run: echo hello, world!
         
      
      
